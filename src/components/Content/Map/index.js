@@ -10,7 +10,7 @@ class Map extends Component {
                 defaultZoom={7}
                 defaultCenter={{ lat: 55.1694, lng: 23.8813 }}
             >
-            <Marker position={{lat: 54.6872, lng:25.2797}} />
+                <Marker position={{lat: 54.6872, lng:25.2797}} />
                     {/* <MarkerWithLabel
                         position={{ lat: 54.6872, lng: 25.2791 }}
                         labelAnchor={new google.maps.Point(0, 0)}

@@ -1,0 +1,9 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+    height: 100%;
+    width: 20%;
+    min-width: 300px;
+}

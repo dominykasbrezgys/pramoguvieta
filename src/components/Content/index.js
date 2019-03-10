@@ -1,14 +1,22 @@
 import React,{Component} from 'react';
+import Map from './Map';
+import Sidebar from './Sidebar';
 import style from './style.css';
-import Logo from './Logo';
 
 class Content extends Component {
 
     render(){
-		return(
-			<div>
-			</div>
-		);
+      return(
+        <div className={style.content}>
+          <Sidebar/>
+          <Map
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG1q1QgdGadc84gmWLrdbHY0VLN03xFg&libraries=geometry,drawing,places"
+            loadingElement={<div style={{ height: `100%`, width: `100%`}} />}
+            containerElement={<div style={{ height: `100%`, width: `100%`}} />}
+            mapElement={<div style={{ height: `100%`, width: `100%`}} />}
+          />
+        </div>
+      );
     }
 }
 
