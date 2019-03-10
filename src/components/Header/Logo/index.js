@@ -6,7 +6,7 @@ class Logo extends Component {
 		return(
 			<div>
 				<h1>
-                    PramoguVieta.lt
+                    LOGO
                 </h1>
 			</div>
 		);
